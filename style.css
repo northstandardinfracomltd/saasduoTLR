@@ -102,37 +102,6 @@ input {
   transition: 500ms;
 }
 
-/* Subheading */
-h2 {
-  color: #2800FF;
-}
-
-/* Interactive image */
-.illustration:active {
-  transform: translateY(5px);
-}
-
-/* Button dip
-- Toggling this class on and off will move it down and up again
-- The button transition property above determines the speed of the translate (500ms)
-*/
-.dipped {
-  transform: translateY(5px);
-}
-
-/* Links that open files in the editor */
-.fileopener {
-  cursor:pointer;
-  font-weight:bold;
-  border-bottom:3px solid var(--color-primary);
-  color: var(--color-secondary);
-}
-.fileopener:hover {
-  border-bottom:3px solid var(--color-secondary);
-}
-
-
-
 
 .saasduodesklandscapea {
   height: 444px;
@@ -263,7 +232,10 @@ h2 {
 
 .txt0005 {
   font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 
 
 
@@ -306,15 +278,16 @@ h2 {
     .grid-containerccc {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      gap: 10px;
+      grid-template-rows: repeat(1, 1fr);
+      gap: 15px;
       width: 100%; 
       margin: 0 auto; 
     }
 
     .grid-itemccc {
       border: 1px solid #ddd;
-      padding: 10px;
+      border-radius: 10px;
+      padding: 0px;
     }
 
 
@@ -322,9 +295,37 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: grey;
+      height: 180px;
+  border-radius: 9px 9px 0px 0px;
+}
+
+
+.grid-itemccc:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 0px 4px #008eff38;
 }
 
 .brand {
-  width: 100%;
-  height: 50px;
+  height: 100%;
+}
+
+
+
+
+.tag-button {
+  background-color: #00a82d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  cursor: default;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.tag-button:hover {
+  background-color: #00a82d; 
 }

@@ -179,7 +179,7 @@ h2 {
 
 .saasduo9282
 {
-  max-width: 1200px;
+  max-width: 1150px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -190,7 +190,7 @@ h2 {
 
 .saasduo9229
 {
-  max-width: 1200px;
+  max-width: 1150px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -201,7 +201,7 @@ h2 {
 
 .saasduo9221
 {
-  max-width: 1200px;
+  max-width: 1150px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -210,3 +210,40 @@ h2 {
 }
 
 
+.icon-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+
+.txt0001 {
+  font-size: 32px;
+}
+
+
+.txt0002 {
+  font-size: 18px;
+}
+
+
+.two-column-container {
+  display: flex;
+}
+
+.left-column {
+  flex: 70%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.right-column {
+  flex: 30%;
+  background-color: #ddd;
+  padding: 20px;
+}

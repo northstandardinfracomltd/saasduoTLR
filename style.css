@@ -103,6 +103,18 @@ input {
 }
 
 
+
+.saasduodesklandscapeacardinal {
+  height: 444px;
+  background-image: url(https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/23097203823202939939329299292392crabeBHB.svg?v=1692737576289);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(43 37 70);
+}
+
+
+
 .saasduodesklandscapea {
   height: 444px;
   background-image: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/Crabe2.png?v=1692731148369");
@@ -110,6 +122,7 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 
 .saasduodesklandscapeb {
@@ -156,6 +169,17 @@ input {
   margin-bottom: 20px;
 }
 
+
+.saasduo9222321222219
+{
+  max-width: 1150px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 
 .saasduo1234
@@ -234,6 +258,10 @@ input {
 
 .txt00091 {
   font-size: 32px;
+}
+
+.txt00092 {
+  font-size: 20px;
 }
 
 .txt0009 {
@@ -511,3 +539,129 @@ text-decoration: none;
     text-align: center !important;
 }
 
+
+.main-nav
+{
+  position: fixed;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0px;
+  top: 0; left: 0; 
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  background: #008eff38;
+
+}
+
+img.navlogo {
+  margin-top: -10px;
+  margin-left: 13px !important;
+  cursor: pointer;
+}
+
+.navlogo
+{
+  line-height: 10px;
+  width: 145px !important;
+}
+
+
+.navlogo:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+.main-nav a
+{
+  cursor: pointer;
+  float: left;
+  list-style: none;
+  height: 0px;
+  margin-bottom: 26px !important;
+  line-height: 25px;
+  color: #acbac7 !important;
+      font-family: "Saoecom2font" !important;
+  font-size: 15px !important;
+  letter-spacing: 0.02em !important;
+}
+
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+text-decoration: none;
+    display: inline-block !important;
+    padding: 4px 20px !important;
+    font-size: 18px !important;
+    font-weight: var(--base-text-weight-medium, 500) !important;
+    line-height: 40px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    border: 1px solid #316dca;
+    border-radius: 10px;
+    font-family: "Saoecom2font" !important;
+    color: #feffff !important;
+    background-color: #316dca !important;
+    height: 50px;
+    margin-top: 11px;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.dd-button:hover {
+  display: inline-block;
+
+}
+
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #454c56;
+  border-radius: 14px;
+  padding: 0;
+  color: #acbac7 !important;
+      font-family: "Saoecom2font" !important;
+  font-size: 15px !important;
+  margin: 8px 0 0 -83px !important;
+  background-color: #2d333b;
+  list-style-type: none;
+  box-shadow: 20px -1px 2.74416px rgba(0, 0, 0, 0.0274351), -2px 11px 5.48831px rgba(0, 0, 0, 0.0400741), 0px -18px 10.9766px rgba(0, 0, 0, 0.0499982), 0px 14px 20.5812px rgba(0, 0, 0, 0.0596004), 0px 12px 41.1623px rgba(0, 0, 0, 0.0709366), -20px 0px 89.1851px rgba(0, 0, 0, 0.09);
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+.dd-menu li {
+  padding: 17px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+.dd-menu li a {
+  display: block;
+  margin: -9px -20px;
+  padding: 7px 20px;
+}
+
+.dd-menu li.divider{
+  padding: 9px;
+  border-bottom: 1px solid #454c56;
+}

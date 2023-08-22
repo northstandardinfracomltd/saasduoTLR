@@ -141,3 +141,72 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.saasduodesklandscapeb {
+  height: 444px;
+  background-image: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/professional_hero_desktop%402x.png?v=1692731585420");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.saasduodesklandscapec {
+  height: 444px;
+  background-image: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/Crabe1.png?v=1692731569533");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+      width: 100%; 
+      margin: 0 auto; 
+    }
+
+    .grid-item {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+
+
+
+.saasduo9282
+{
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.saasduo9229
+{
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.saasduo9221
+{
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+

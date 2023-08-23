@@ -831,12 +831,24 @@ text-decoration: none;
 
 
 
+.footercolor {
+  background: #f4f4f4;
+
+}
+
+
+.cristalinefooter {
+  color: #676672;
+  font-size: 12px;
+  font-family: "saasduoTXT" !important;
+}
+
 
 
 .containerzapier {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1600px;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -845,15 +857,15 @@ text-decoration: none;
 }
 
 .columnzapier {
-    flex-basis: calc(33.33% - 20px);
+    flex-basis: calc(25% - 20px);
     padding: 10px;
     box-sizing: border-box;
 }
 
 .full-widthzapier {
-    background-color: #ccc;
     padding: 20px;
     box-sizing: border-box;
+  border-top: 1px solid #e2e2e4;
 }
 
 

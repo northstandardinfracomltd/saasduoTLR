@@ -309,6 +309,27 @@ input {
 
 
 
+
+
+.triathlon-button {
+  background-color: #00a82d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+
+.triathlon-button:hover {
+  background-color: #00a82d; 
+}
+
+
+
+
 .green-button {
   background-color: #00a82d;
   color: white;
@@ -663,4 +684,19 @@ text-decoration: none;
 .dd-menu li.divider{
   padding: 9px;
   border-bottom: 1px solid #454c56;
+}
+
+
+
+.containertri {
+    max-width: 1150px;
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+    display: flex; /* Utiliser la disposition en flexbox */
+}
+
+.columntri1 {
+    flex: 1; /* Prendre la moitié de l'espace disponible */
+    padding: 20px; /* Ajouter un peu d'espace autour du contenu */
+    box-sizing: border-box; /* Inclure le padding dans la largeur */
+    border: 1px solid #ccc; /* Ajouter une bordure pour la démonstration */
 }

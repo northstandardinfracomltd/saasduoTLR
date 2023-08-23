@@ -61,6 +61,14 @@ to this section's matching END comment to see page-specific styles.
     format("opentype");
 }
 
+
+@font-face {
+  font-family: saasduoPAR;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/SaaSduo%20more?v=1692822723823")
+    format("opentype");
+}
+
 body {
 background: #ffffff;
   margin: 0px !important;
@@ -253,6 +261,40 @@ width: 140px;
   letter-spacing: 0px;
   color: #1b1b20;
 }
+
+
+
+.txt98765 {
+  font-size: 54px;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
+  letter-spacing: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+}
+
+
+
+
+
+.txt98765UU {
+  font-size: 22px;
+  font-family: "saasduoPAR" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
+  letter-spacing: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+}
+
+
 
 
 .txt00091 {
@@ -917,4 +959,34 @@ font-size: 12px;
   }
 
 
+
+
+
+.containerfix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input-fieldfix {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.red-buttonfix {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 

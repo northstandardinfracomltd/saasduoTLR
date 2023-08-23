@@ -69,6 +69,14 @@ to this section's matching END comment to see page-specific styles.
     format("opentype");
 }
 
+
+@font-face {
+  font-family: saasduoBTN;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/SaaSduo%20Button?v=1692822927520")
+    format("opentype");
+}
+
 body {
 background: #ffffff;
   margin: 0px !important;
@@ -247,6 +255,12 @@ background: #ffffff;
 }
 
 
+
+.gratefully {
+  width: 100px;
+}
+
+
 .hand {
 width: 140px;
     margin-top: -65px;
@@ -261,6 +275,23 @@ width: 140px;
   letter-spacing: 0px;
   color: #1b1b20;
 }
+
+
+
+
+.txtb2o {
+  font-size: 22px;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
+}
+
+
+.txtb2osub {
+  font-size: 18px;
+  font-family: "saasduoTXT" !important;
+}
+
 
 
 
@@ -741,7 +772,7 @@ text-decoration: none;
 }
 
 img.navlogo {
-  margin-top: -10px;
+  margin-top: 10px;
   margin-left: 13px !important;
   cursor: pointer;
 }
@@ -749,7 +780,7 @@ img.navlogo {
 .navlogo
 {
   line-height: 10px;
-  width: 80px !important;
+  width: 85px !important;
 }
 
 
@@ -988,5 +1019,7 @@ font-size: 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: "saasduoBTN" !important;
+
 }
 

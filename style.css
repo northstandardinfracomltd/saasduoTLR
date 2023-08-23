@@ -47,6 +47,20 @@ to this section's matching END comment to see page-specific styles.
     format("opentype");
 }
 
+@font-face {
+  font-family: saasduoTXT;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/SaaSduo%20Primary?v=1692806284277")
+    format("opentype");
+}
+
+@font-face {
+  font-family: saasduoTIL;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/SaaSduo%20Secondary?v=1692806478312")
+    format("opentype");
+}
+
 body {
 background: #ffffff;
   margin: 0px !important;
@@ -226,7 +240,10 @@ background: #ffffff;
 
 
 .txt0001 {
-  font-size: 32px;
+  font-size: 22px;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
 }
 
 
@@ -263,6 +280,7 @@ background: #ffffff;
 
 .txt0002 {
   font-size: 18px;
+  font-family: "saasduoTXT" !important;
 }
 
 

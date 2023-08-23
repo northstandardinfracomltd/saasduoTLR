@@ -419,7 +419,9 @@ input {
 }
 
 
-
+.ambianttri  {
+  background: linear-gradient(180deg, rgb(34, 39, 46), rgb(43, 37, 70)) !important;
+}
 
 .unescribe-button {
   background-color: #00a82d;

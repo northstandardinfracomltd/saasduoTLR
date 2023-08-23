@@ -84,12 +84,12 @@ background: #ffffff;
 
 
 .saasduodesklandscapeacardinal {
-  height: 750px;
-  background-image: url(https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/23097203823202939939329299292392crabeBHB.svg?v=1692737576289);
+  height: 720px;
+  background-image: url(https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/23097203823202939939329299292392crabeded.svg?v=1692809640270);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    background-color: rgb(43 37 70);
+    background-color: #ffd000;
 }
 
 
@@ -685,7 +685,7 @@ img.navlogo {
 .navlogo
 {
   line-height: 10px;
-  width: 145px !important;
+  width: 200px !important;
 }
 
 
@@ -792,23 +792,25 @@ text-decoration: none;
 
 .containertri {
     max-width: 100%;
-    margin: 0 auto; /* Centrer le contenu horizontalement */
-    display: flex; /* Utiliser la disposition en flexbox */
+    margin: 0 auto; 
+    display: flex; 
+  height: 52px !important;
 }
 
 .columntri {
-    flex: 1; /* Prendre la moitié de l'espace disponible */
-    padding: 20px; /* Ajouter un peu d'espace autour du contenu */
-    box-sizing: border-box; /* Inclure le padding dans la largeur */
-    border: 1px solid #ccc; /* Ajouter une bordure pour la démonstration */
+    flex: 1; 
+    padding: 20px; 
+    box-sizing: border-box;
+    border: 0px solid transparent; 
+    height: 52px !important;
 }
 
 .column1tri {
-    background-color: #f2f2f2; /* Couleur de fond pour la première colonne */
+    justify-content: left;
+  text-align: left;
 }
 
 .column2tri {
-    background-color: #e0e0e0; /* Couleur de fond pour la deuxième colonne */
   justify-content: right;
   text-align: right;
 }

@@ -239,6 +239,14 @@ background: #ffffff;
 }
 
 
+.hand {
+width: 140px;
+    margin-top: -65px;
+  text-align: left !important;
+  margin-right: auto !important;
+}
+
+
 .txt0001 {
   font-size: 22px;
   font-family: "saasduoTIL" !important;
@@ -810,11 +818,14 @@ text-decoration: none;
     display: flex; 
   height: 52px !important;
   border-bottom: 1px solid grey;
+  background: #fff;
+    z-index: 999;
+    position: sticky;
 }
 
 .columntri {
     flex: 1; 
-    padding: 20px; 
+    padding: 0px; 
     box-sizing: border-box;
     border: 0px solid transparent; 
     height: 52px !important;
@@ -881,6 +892,8 @@ text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     justify content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .colonnetoz {
@@ -895,11 +908,12 @@ font-size: 12px;
 
   .colonne-r {
     background-color: #ffd000;
-    border-radius: 12px;
+    border-radius: 9px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     color: #333;
+    box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
   }
 
 

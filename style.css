@@ -121,7 +121,10 @@ background: #ffffff;
   background: #ffd000;
   border-radius: 200px 200px 0px 0px;
     margin-bottom: -50px;
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .saasduodesklandscapeb2 {
@@ -129,11 +132,30 @@ background: #ffffff;
   margin-top: -70px;
   background: #1b1b20;
   border-radius:  0px 0px 200px 200px;
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 
 .illustrationcapeb {
   width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.illustrationcapeb2 {
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 

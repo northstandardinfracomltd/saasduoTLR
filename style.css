@@ -257,8 +257,11 @@ width: 140px;
   margin-left: auto !important;
 }
 
+.underscore {
+width: 100%;
+    margin-top: -20px;
 
-
+}
 
 .icon-container {
   display: flex;
@@ -304,6 +307,7 @@ width: 140px;
   margin-right: auto;
     justify-content: center;
     align-items: center;
+  padding: 0px !important;
 }
 
 

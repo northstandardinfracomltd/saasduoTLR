@@ -119,7 +119,24 @@ background: #ffffff;
 .saasduodesklandscapeb {
   height: 444px;
   background: #ffd000;
+  border-radius: 200px 200px 0px 0px;
+    margin-bottom: -50px;
+
 }
+
+.saasduodesklandscapeb2 {
+  height: 444px;
+  margin-top: -70px;
+  background: #1b1b20;
+  border-radius:  0px 0px 200px 200px;
+}
+
+
+.illustrationcapeb {
+  width: 100%;
+}
+
+
 
 .saasduodesklandscapec {
   height: 444px;

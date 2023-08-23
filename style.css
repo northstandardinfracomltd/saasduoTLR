@@ -243,16 +243,6 @@ background: #ffffff;
 }
 
 
-.icon-container {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-}
-
-.icon {
-  width: 50px;
-  height: 50px;
-}
 
 
 
@@ -269,11 +259,39 @@ width: 140px;
 }
 
 
+
+
+.icon-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.icon {
+  width: 54px;
+  margin-left: 10px;
+}
+
+
+
 .txt0001 {
-  font-size: 22px;
+  font-size: 27px;
   font-family: "saasduoTIL" !important;
-  letter-spacing: 0px;
+  letter-spacing: -0.5px;
   color: #1b1b20;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+.txt0002 {
+  font-size: 18px;
+  font-family: "saasduoPAR" !important;
+  line-height: 30px;
+margin-top: -10px;
+    padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -378,10 +396,6 @@ width: 140px;
 
 
 
-.txt0002 {
-  font-size: 18px;
-  font-family: "saasduoTXT" !important;
-}
 
 
 .txt0003 {

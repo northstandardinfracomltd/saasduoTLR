@@ -118,10 +118,7 @@ background: #ffffff;
 
 .saasduodesklandscapeb {
   height: 444px;
-  background-image: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/professional_hero_desktop%402x.png?v=1692731585420");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #ffd000;
 }
 
 .saasduodesklandscapec {
@@ -263,6 +260,25 @@ width: 100%;
 
 }
 
+
+
+.antrax1 {
+width: 100%;
+    margin-bottom: -10px;
+
+}
+
+
+.antrax2 {
+width: 100%;
+    margin-top: -10px;
+
+}
+
+
+
+
+
 .icon-container {
   display: flex;
   justify-content: left;
@@ -351,9 +367,9 @@ width: 100%;
 
 
 .txt0002 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "saasduoPAR" !important;
-  line-height: 30px;
+  line-height: 32px;
 margin-top: -10px;
     padding-left: 10px;
   padding-right: 10px;

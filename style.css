@@ -283,12 +283,37 @@ width: 140px;
 }
 
 
+.objet0001P {
+    width: 500px;
+    margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+.objet000P {
+    background-color: #f6f6f7;
+    width: 100%;
+  max-width: 1150px;
+  border-radius: 0px 0px 9px 9px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 .objet000 {
     background-color: #ffd000;
     width: 100%;
   max-width: 1150px;
-  border-radius: 9px;
+  border-radius: 9px 9px 0px 0px;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -296,8 +321,8 @@ width: 140px;
     align-items: center;
   
   
-    height: 720px;
-  background-image: url(https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/23097203823202939939329299292392crabededdddd.svg?v=1692820954517);
+    height: 600px;
+  background-image: url(https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/curved9232032323.svg?v=1692825654132);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;

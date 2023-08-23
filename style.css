@@ -694,9 +694,24 @@ text-decoration: none;
     display: flex; /* Utiliser la disposition en flexbox */
 }
 
-.columntri1 {
+.columntri {
     flex: 1; /* Prendre la moitié de l'espace disponible */
     padding: 20px; /* Ajouter un peu d'espace autour du contenu */
     box-sizing: border-box; /* Inclure le padding dans la largeur */
     border: 1px solid #ccc; /* Ajouter une bordure pour la démonstration */
 }
+
+.column1tri {
+    background-color: #f2f2f2; /* Couleur de fond pour la première colonne */
+}
+
+.column2tri {
+    background-color: #e0e0e0; /* Couleur de fond pour la deuxième colonne */
+  justify-content: right;
+  text-align: right;
+}
+
+
+
+
+

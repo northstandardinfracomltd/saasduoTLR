@@ -48,7 +48,7 @@ to this section's matching END comment to see page-specific styles.
 }
 
 body {
-background: #;
+background: #ffffff;
   margin: 0px !important;
 }
 
@@ -146,16 +146,18 @@ input {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
-      gap: 10px;
+      gap: 20px;
       width: 100%; 
       margin: 0 auto; 
     }
 
     .grid-item {
-      border: 1px solid #ddd;
+      border: 1px solid rgb(0 0 0 / 8%);
+      border-radius: 8px;
+      background: #f6f5f4;
       padding: 10px;
+      box-shadow: 20px -1px 2.74416px rgba(0, 0, 0, 0.0274351), -2px 11px 5.48831px rgba(0, 0, 0, 0.0400741), 0px -18px 10.9766px rgba(0, 0, 0, 0.0499982), 0px 14px 20.5812px rgba(0, 0, 0, 0.0596004), 0px 12px 41.1623px rgba(0, 0, 0, 0.0709366), -20px 0px 89.1851px rgba(0, 0, 0, 0.09);
     }
-
 
 
 

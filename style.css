@@ -66,41 +66,6 @@ background: #ffffff;
   justify-content: center;
 }
 
-/* Very light scaling for our illustration */
-.title {
-  color: #2800FF;
-  font-family: HK Grotesk;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 100px;
-  line-height: 105%;
-  margin: 0;
-}
-
-/* Very light scaling for our illustration */
-.illustration {
-  max-width: 100%;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
-}
-
-/* Instructions */
-.instructions {
-  margin: 1rem auto 0;
-}
-
-/* Button - Add it from the README instructions */
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  background: #FFFFFF;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  transition: 500ms;
-}
 
 
 
@@ -534,16 +499,8 @@ input {
 
 
 
-@media screen and (max-width: 980px) {
-  .alert {
-padding: 12px 20px 20px 20px !important;}
-}
-
-
-/* Style pour la barre d'alerte */
 .alert {
 padding: 20px 20px 20px 20px;
-background-color: #211d27;
 margin-bottom: 0px;
 position: fixed;
 bottom: 0;
@@ -556,10 +513,15 @@ letter-spacing: 0.01em !important;
 color: #a28db6 !important;
   
   
-  background: linear-gradient(rgb(40 35 48), rgb(40 35 48)) padding-box, linear-gradient(to right, #238636, #1f6feb, #8957e5, #da3633, #bd561d);
     border-radius: 0px;
-    border-top: 2px solid transparent;
+    border-top: 1px solid transparent;
+  
+  background: white;
+  
+  
 }
+
+
 
 .buttonalert {
 text-decoration: none;

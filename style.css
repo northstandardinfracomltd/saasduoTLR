@@ -271,6 +271,15 @@ input {
   padding-right: 15px;
 }
 
+
+
+.txt0009zapier {
+  font-size: 32px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .txt0002 {
   font-size: 18px;
 }
@@ -724,6 +733,29 @@ text-decoration: none;
 }
 
 
+
+
+
+.containerzapier {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.columnzapier {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.full-widthzapier {
+    background-color: #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
 
 

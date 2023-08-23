@@ -131,9 +131,9 @@ background: #ffffff;
     }
 
     .grid-item {
-      border: 1px solid rgb(0 0 0 / 8%);
+      border: 1px solid #d4d4d7;
       border-radius: 9px;
-      background: #f6f5f4;
+      background: #f6f6f7;
       padding: 20px;
       cursor: pointer;
       box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
@@ -269,6 +269,8 @@ background: #ffffff;
   text-align: left;
   padding-left: 5px;
   padding-right: 5px;
+  font-family: "saasduoTXT" !important;
+  text-decoration: none !important; 
 }
 
 .txt0009zapiertop {
@@ -276,6 +278,9 @@ background: #ffffff;
   text-align: left;
   padding-left: 5px;
   padding-right: 5px;
+  font-family: "saasduoTIL" !important;
+  text-decoration: none !important; 
+  color: black;
 }
 
 .txt0002 {
@@ -290,9 +295,21 @@ background: #ffffff;
 
 
 .txt0005 {
-  font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
+    font-size: 22px;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
+}
+
+.txt00051 {
+  padding-left: 10px;
+  padding-right: 10px;
+    font-size: 18px;
+  font-family: "saasduoTXT" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
 }
 
 
@@ -417,7 +434,7 @@ background: #ffffff;
 
 
 .ambianttri  {
-  background: linear-gradient(180deg, rgb(34, 39, 46), rgb(43, 37, 70)) !important;
+  background: transparent;
 }
 
 .unescribe-button {
@@ -742,14 +759,16 @@ text-decoration: none;
 .containerzapier {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .columnzapier {
     flex-basis: calc(33.33% - 20px);
-    background-color: #f2f2f2;
     padding: 10px;
     box-sizing: border-box;
 }

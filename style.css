@@ -253,9 +253,10 @@ background: #ffffff;
 
 .hand {
 width: 140px;
-    margin-top: -65px;
+    margin-top: 0px;
   text-align: left !important;
   margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 
@@ -268,10 +269,40 @@ width: 140px;
 }
 
 .icon {
-  width: 54px;
+  width: 55px;
   margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: -1px;
 }
 
+
+.objet0001 {
+    width: 500px;
+    margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+.objet000 {
+    background-color: #ffd000;
+    width: 100%;
+  max-width: 1150px;
+  border-radius: 9px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.objet000 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 .txt0001 {
@@ -314,7 +345,7 @@ margin-top: -10px;
 
 
 .txt98765 {
-  font-size: 54px;
+  font-size: 54px !important;
   font-family: "saasduoTIL" !important;
   letter-spacing: 0px;
   color: #1b1b20;
@@ -331,7 +362,7 @@ margin-top: -10px;
 
 
 .txt98765UU {
-  font-size: 22px;
+  font-size: 22px !important;
   font-family: "saasduoPAR" !important;
   letter-spacing: 0px;
   color: #1b1b20;

@@ -1362,3 +1362,41 @@ font-size: 12px;
 
 
 
+
+
+.main-container101 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1150px;
+  grid-gap: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.column101 {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 0px;
+}
+
+.sub-column101 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.text101 {
+  flex: 1;
+}
+
+.image101 {
+  flex: 1;
+  padding-left: 20px;
+    max-width: 100%;
+  height: auto;
+}
+

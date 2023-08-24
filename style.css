@@ -1521,3 +1521,64 @@ margin-top: -10px;
     font-family: "saasduoBTN" !important;
 
 }
+
+
+
+.colonne-containerz {
+    display: flex;
+  width: 100%;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 10px;
+}
+
+.colonnez {
+    flex: 1;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+}
+
+
+
+
+
+
+.kfc {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+      display: grid;
+  
+  
+  grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.kfc-left {
+  border: 1px solid #d4d4d7;
+    border-radius: 9px;
+    background: #f4f4f4;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.kfc-right {
+  border: 1px solid #d4d4d7;
+    border-radius: 9px;
+    background: #f1F1F1;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+.kfcimg {
+  width: 100%
+}
+

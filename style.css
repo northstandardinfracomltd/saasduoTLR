@@ -1690,7 +1690,9 @@ width: 250px;
   margin-right: auto;
     text-align: left;
     justify-content: left;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+        padding-top: 30px;
+    margin-left: 70px;
     
   }
 

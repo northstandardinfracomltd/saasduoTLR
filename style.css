@@ -432,19 +432,6 @@ margin-top: -10px;
 
 
 
-.red-flatty {
-    padding: 10px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  font-size: 18px;
-  padding: 15px 15px 15px 15px;
-    font-family: "saasduoBTN" !important;
-
-}
-
 
 .brand {
   width: 300px;
@@ -1167,7 +1154,8 @@ text-decoration: none;
 
 
 .footercolor {
-  background: #f4f4f4;
+background: #f4f4f4;
+  border-top: 1px solid #d4d4d7;
 
 }
 
@@ -1380,9 +1368,10 @@ font-size: 12px;
 .column101 {
     display: flex;
 width: 100%;
-  padding: 10px;
   border: 1px solid #ccc;
   margin: 0px;
+  padding: 20px;
+  border-radius: 9px;
 }
 
 .sub-column101 {
@@ -1395,15 +1384,16 @@ width: 100%;
   display: block;
   align-items: center;
   padding: 0px;
-    flex: 60%;
+    flex: 50% !important;
 
 }
 
 .sub-column101-right {
   display: flex;
   align-items: center;
-  padding: 10px;
-    flex: 40%;
+  padding: 0px;
+    flex: 50% !important;
+  text-align: right;
 
 }
 
@@ -1412,8 +1402,8 @@ width: 100%;
 }
 
 .image101 {
-  margin-left: 20px;
   width: 100%;
+  max-width: 100%;
 }
 
 .column101Y {
@@ -1427,17 +1417,28 @@ width: 100%;
     margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+  background: #ffd000;
+  border-radius: 9px;
 }
 
 
 .sub-column101-leftY {
-  display: flex;
+  display: block;
   align-items: center;
   padding: 10px;
-    flex: 60%;
+    flex: 50%;
 
 }
 
+
+.sub-column101-rightY {
+  display: block;
+  align-items: center;
+  padding: 10px;
+    flex: 50%;
+  text-align: right;
+
+}
 
 
 
@@ -1462,5 +1463,37 @@ margin-top: -10px;
     padding-left: 10px;
   padding-right: 10px;
     width: 100%;
+
+}
+
+
+
+
+.red-flatty {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  font-size: 18px;
+  padding: 15px 15px 15px 15px;
+    font-family: "saasduoBTN" !important;
+
+}
+
+
+
+
+.blue-flatty {
+    padding: 10px;
+    background-color: #1128f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  font-size: 18px;
+  padding: 15px 15px 15px 15px;
+    font-family: "saasduoBTN" !important;
 
 }

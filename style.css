@@ -1674,7 +1674,7 @@ width: 250px;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 0px solid transparent;
     
         background: radial-gradient(farthest-side at bottom left,#7edd92,transparent 500px),radial-gradient(farthest-side at center,#fff,transparent),radial-gradient(farthest-side at top right,#6ec500,#cdff3f,transparent 900px),radial-gradient(farthest-side at bottom right,#eefdd1,#2aac67,transparent 900px);
     
@@ -1682,8 +1682,19 @@ width: 250px;
 
 
 
-  .containerplant {
-    max-width: 
+  .viewplant {
+    
+      max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+      display: grid;
+  
+  
+  grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0px;
+    width: 100%;
+    margin: 0 auto;
   }
 
 
@@ -1692,11 +1703,39 @@ width: 250px;
     flex: 1;
     padding: 10px;
     background-color: transparent;
-    border: 1px solid #ddd;
+    justify-content: center;
   }
 
+
+
+
   .divplant {
-    padding: 10px;
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
-  }
+    padding: 30px;
+    background-color: #ffd000;
+    border: 0px solid transparent;
+    width: 400px;
+    border-radius: 9px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.TXTintro {
+  font-size: 85px !important;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: -1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left !important;
+  
+  
+      -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
+    -webkit-background-clip: text;
+  line-height: 80px;
+}
+

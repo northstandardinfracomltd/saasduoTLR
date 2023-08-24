@@ -406,6 +406,49 @@ width: 100%;
 
 
 
+.txt0001price {
+  font-size: 27px;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: -0.5px;
+  color: #1b1b20;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+.txt0002price {
+  font-size: 20px;
+  font-family: "saasduoPAR" !important;
+  line-height: 32px;
+margin-top: -10px;
+    padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+.red-flatty {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  font-size: 18px;
+  padding: 15px 15px 15px 15px;
+    font-family: "saasduoBTN" !important;
+
+}
+
+
+.brand {
+  width: 300px;
+}
+
+
+
 .txt0002 {
   font-size: 20px;
   font-family: "saasduoPAR" !important;
@@ -1243,7 +1286,7 @@ font-size: 12px;
 }
 
 .left-columnprice {
-  flex: 50%;
+  flex: 33.33%;
   padding: 20px;
     border-right: 1px solid #d4d4d7;
 

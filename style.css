@@ -287,9 +287,9 @@ background: #ffffff;
 
 
 .hand {
-width: 140px;
+width: 200px;
     margin-top: 0px;
-  text-align: left !important;
+  text-align: center !important;
   margin-right: auto !important;
   margin-left: auto !important;
 }

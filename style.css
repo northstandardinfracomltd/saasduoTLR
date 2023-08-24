@@ -117,7 +117,7 @@ background: #ffffff;
 
 
 .saasduodesklandscapeb {
-  height: 444px;
+  height: 654px;
   background: #ffd000;
   border-radius: 200px 200px 0px 0px;
     margin-bottom: -50px;
@@ -450,6 +450,24 @@ margin-top: -10px;
 
 
 
+
+.txt987651A {
+  font-size: 54px !important;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: -0.5px !important;
+  color: #1b1b20;
+  letter-spacing: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+  padding-top: 10px;
+  margin-bottom: -10px;
+}
+
+
+
 .txt98765UU {
   font-size: 22px !important;
   font-family: "saasduoPAR" !important;
@@ -461,6 +479,23 @@ margin-top: -10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center !important;
+}
+
+
+
+.txt98765UU1A {
+  font-size: 22px !important;
+  font-family: "saasduoPAR" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
+  letter-spacing: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+  width: 600px;
+  line-height: 37px;
 }
 
 

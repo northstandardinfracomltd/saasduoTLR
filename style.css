@@ -1684,13 +1684,14 @@ width: 250px;
 
   .viewplant {
     
-      max-width: 1150px;
-  margin-left: auto;
+      max-width: 700px;
   margin-right: auto;
       display: block;
   margin-right: auto;
     text-align: left;
     justify-content: left;
+    
+    
   }
 
 
@@ -1719,9 +1720,9 @@ width: 250px;
 
 
 .TXTintro {
-  font-size: 85px !important;
+  font-size: 76px !important;
   font-family: "saasduoTIL" !important;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -1733,13 +1734,43 @@ width: 250px;
     background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
     -webkit-background-clip: text;
   line-height: 80px;
+    margin-top: 20px;
+
 }
 
 
 
 
 .TXTintro2 {
-
-  line-height: 80px;
+  font-size: 76px !important;
+  font-family: "saasduoTIL" !important;
+  letter-spacing: -2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left !important;
+  line-height: 0px;
+  color: black;
+  margin-top: -40px;
 }
+
+
+
+
+
+.TXTintro3 {
+  font-size: 24px !important;
+  font-family: "saasduoPAR" !important;
+  letter-spacing: 0px;
+  color: #1b1b20;
+  letter-spacing: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left !important;
+  line-height: 36px;
+}
+
 

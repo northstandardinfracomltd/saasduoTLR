@@ -1572,18 +1572,18 @@ margin-top: -10px;
 }
 
 .kfc-left {
-  border: 1px solid #d4d4d7;
+  border: 1px solid transparent;
     border-radius: 9px;
-    background: #f4f4f4;
+    background: transparent;
     padding: 20px;
     cursor: pointer;
 }
 
 
 .kfc-right {
-  border: 1px solid #d4d4d7;
+  border: 1px solid transparent;
     border-radius: 9px;
-    background: #f1F1F1;
+    background: transparent;
     padding: 20px;
     cursor: pointer;
 }
@@ -1591,7 +1591,7 @@ margin-top: -10px;
 
 
 .kfcimg {
-  width: 100%
+  width: 100%;
 }
 
 

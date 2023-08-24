@@ -809,7 +809,7 @@ margin-top: -10px;
 
     .firm-container {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(1, 1fr);
       gap: 15px;
       width: 100%; 
@@ -1411,6 +1411,19 @@ width: 100%;
 .text101 {
   font-size: 18px;
 }
+
+
+
+
+.image101Y {
+    width: 100%;
+  max-width: 100px;
+  margin-left: auto;
+  
+}
+
+
+
 
 .image101 {
   width: 100%;

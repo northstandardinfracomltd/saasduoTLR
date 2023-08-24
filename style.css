@@ -1687,14 +1687,10 @@ width: 250px;
       max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
-      display: grid;
-  
-  
-  grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 0px;
-    width: 100%;
-    margin: 0 auto;
+      display: block;
+  margin-right: auto;
+    text-align: left;
+    justify-content: left;
   }
 
 
@@ -1736,6 +1732,14 @@ width: 250px;
       -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
     -webkit-background-clip: text;
+  line-height: 80px;
+}
+
+
+
+
+.TXTintro2 {
+
   line-height: 80px;
 }
 

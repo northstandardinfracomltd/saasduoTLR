@@ -1901,22 +1901,24 @@ width: 250px;
 .form-container1 {
   display: flex;
   align-items: center;
-  width: 500px;
+  width: 460px;
 }
+
+
+
 
 .input-fieldfix1 {
   flex: 3; 
-  padding: 10px;
   height: 58px;
   border: 3px solid #ffd000;
-    border-radius: 9px;
+  border-radius: 9px;
   margin-right: 10px;
   padding-top: 12px !important;
-    padding-bottom: 10px !important;
-      font-family: "saasduoPAR" !important;
+  padding-bottom: 10px !important;
+  font-family: "saasduoPAR" !important;
   font-size: 19px;
-  padding-left: 10px;
-
+  text-align: center;
+    color: grey;
 }
 
 
@@ -1926,30 +1928,16 @@ width: 250px;
 }
 .input-fieldfix1:focus {
   outline: none !important;
-}
-
-
-
-
-
-input[type="text"]::placeholder {
-  color: red; /* Couleur du texte du placeholder */
-}
-
-/* Style pour le texte entré */
-input[type="text"] {
-    color: yellow; /* Couleur du texte du placeholder */
-
-}
-
-/* Lorsque le champ de saisie a le focus */
-input[type="text"]:focus {
-  padding-top: 12px !important;
+    padding-top: 12px !important;
     padding-bottom: 10px !important;
       font-family: "saasduoPAR" !important;
   font-size: 19px;
-  padding-left: 10px;
+  color: grey;
+  text-align: center;
 }
+
+
+
 
 
 

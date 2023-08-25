@@ -597,11 +597,11 @@ margin-top: -10px;
 
 
 .txt0009zapier {
-  font-size: 18px;
+  font-size: 22px;
   text-align: left;
   padding-left: 5px;
   padding-right: 5px;
-  font-family: "saasduoTXT" !important;
+  font-family: "saasduoPAR" !important;
   text-decoration: none ; 
     color: black;
 
@@ -1136,7 +1136,7 @@ img.navlogo {
 
 .embrasse {
 width: 100%;
-  border-bottom: 1px solid rgb(66 77 87 / 30%);
+  border-bottom: 1px solid #fff;
     background: #fff;
   justify-content: center;
 }

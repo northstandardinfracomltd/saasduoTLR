@@ -137,16 +137,29 @@ background: #ffffff;
 }
 
 
-.illustrationcapeb {
+.illustrationcapebYELLOW {
   width: 100%;
-  max-width: 500px;
+  max-width: 520px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   justify-content: center;
-  margin-bottom: 20px;
-    margin-top: 40px;
+  margin-bottom: 30px;
+    margin-top: 55px;
 }
+
+
+.illustrationcapebRED {
+  width: 100%;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 55px;
+    margin-top: 55px;
+}
+
 
 
 
@@ -288,7 +301,7 @@ background: #ffffff;
 .hand {
 width: 245px;
     margin-top: 15px;
-  margin-bottom: 23px;
+  margin-bottom: 35px;
   text-align: center !important;
   margin-right: auto !important;
   margin-left: auto !important;
@@ -936,6 +949,8 @@ color: #a28db6 !important;
 
   background: #f4f4f4;
   border: 1px solid #d4d4d7;
+  
+  display: none !important;
 }
 
 
@@ -1540,17 +1555,32 @@ margin-top: -10px;
 
 
 .blue-flatty {
-    padding: 10px;
-    background-color: #1128f5;
+    background-color: #06f;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: default;
-  font-size: 18px;
-  padding: 15px 15px 15px 15px;
-    font-family: "saasduoBTN" !important;
+    border-radius: 9px;
+    cursor: pointer;
+  font-size: 19px;
+padding-left: 24px;
+  padding-right: 24px;
 
+  padding-top: 15px;
+
+  padding-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
 }
+
+
+
+
+.blue-flatty:hover {
+    background-color: #1128f5;
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
 
 
 
@@ -1694,15 +1724,14 @@ margin-top: -10px;
 
 
 .red-price-button {
-    padding: 10px;
     background-color: #ee0007;
     color: white;
     border: none;
     border-radius: 9px;
     cursor: pointer;
-  font-size: 18px;
-padding-left: 25px;
-  padding-right: 25px;
+  font-size: 19px;
+padding-left: 24px;
+  padding-right: 24px;
 
   padding-top: 15px;
 
@@ -1714,8 +1743,24 @@ padding-left: 25px;
 }
 
 
+.red-price-button:hover {
+    background-color: #cf0006;
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
 
 .priceimg {
+width: 250px;
+    margin-top: 15px;
+  margin-bottom: 38px;
+  text-align: center !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+
+.endillust {
 width: 250px;
     margin-top: 15px;
   margin-bottom: 23px;

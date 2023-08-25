@@ -1857,10 +1857,6 @@ width: 250px;
 
 
 
-.TXTintro:hover {
-    transform: scale(1.05);
-    transition-duration: 0.2s;
-}
 
 
 
@@ -1912,10 +1908,10 @@ width: 250px;
   flex: 3; 
   padding: 10px;
   height: 58px;
-  border: 1px solid #0f0f10;
+  border: 3px solid #ffd000;
     border-radius: 9px;
   margin-right: 10px;
-  padding-top: 15px !important;
+  padding-top: 12px !important;
     padding-bottom: 10px !important;
       font-family: "saasduoPAR" !important;
   font-size: 19px;
@@ -1924,12 +1920,46 @@ width: 250px;
 }
 
 
+.input-fieldfix1:hover {
+  box-shadow: 0 0 0px 4px #008eff38;
+
+}
+.input-fieldfix1:focus {
+  outline: none !important;
+}
+
+
+
+
+
+input[type="text"]::placeholder {
+  color: red; /* Couleur du texte du placeholder */
+}
+
+/* Style pour le texte entré */
+input[type="text"] {
+    color: yellow; /* Couleur du texte du placeholder */
+
+}
+
+/* Lorsque le champ de saisie a le focus */
+input[type="text"]:focus {
+  padding-top: 12px !important;
+    padding-bottom: 10px !important;
+      font-family: "saasduoPAR" !important;
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+
+
+
+
 
 .input-fieldfix1::placeholder  {
     font-family: "saasduoPAR" !important;
   font-size: 19px;
   padding-left: 10px;
-
 }
 
 .red-buttonfix1 {

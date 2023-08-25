@@ -408,7 +408,7 @@ width: 100%;
 .txt0001 {
   font-size: 27px;
   font-family: "saasduoTIL" !important;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   color: #1b1b20;
   padding-left: 10px;
   padding-right: 10px;
@@ -603,24 +603,24 @@ margin-top: -10px;
   padding-right: 5px;
   font-family: "saasduoPAR" !important;
   text-decoration: none ; 
-    color: black;
-
+    color: #1B1B20;
 }
 
 
 
 .txt0009zapier:hover {
   color: #06f;
-      text-decoration: underline  !important;
+      text-decoration: none  !important;
 }
 
 .txt0009zapiertop {
-  font-size: 19px;
+  font-size: 27px !important;
   text-align: left;
   padding-left: 5px;
   padding-right: 5px;
-  font-family: "saasduoTXT" !important;
+  font-family: "saasduoTIL" !important;
   text-decoration: none !important; 
+  letter-spacing: -0.5px;
   color: black;
 }
 

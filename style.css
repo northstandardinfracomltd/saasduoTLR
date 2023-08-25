@@ -139,12 +139,13 @@ background: #ffffff;
 
 .illustrationcapeb {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   justify-content: center;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 

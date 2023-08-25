@@ -512,7 +512,7 @@ margin-top: -10px;
 .txt987651A {
   font-size: 54px !important;
   font-family: "saasduoTIL" !important;
-  letter-spacing: -0.5px !important;
+  letter-spacing: -1.5px !important;
   color: #1b1b20;
   letter-spacing: 0px;
   padding-left: 10px;
@@ -530,7 +530,7 @@ margin-top: -10px;
 .txt987652B {
   font-size: 54px !important;
   font-family: "saasduoTIL" !important;
-  letter-spacing: -0.5px !important;
+  letter-spacing: -1.5px !important;
   color: #ffffff;
   letter-spacing: 0px;
   padding-left: 10px;
@@ -613,7 +613,7 @@ margin-top: -10px;
 .txt0009zapier {
   font-size: 22px;
   text-align: left;
-  padding-left: 5px;
+  padding-left: 0px;
   padding-right: 5px;
   font-family: "saasduoPAR" !important;
   text-decoration: none ; 
@@ -630,12 +630,13 @@ margin-top: -10px;
 .txt0009zapiertop {
   font-size: 28px !important;
   text-align: left;
-  padding-left: 5px;
+  padding-left: 0px;
   padding-right: 5px;
   font-family: "saasduoTIL" !important;
   text-decoration: none !important; 
   letter-spacing: -0.5px;
   color: #1B1B20;
+  cursor: default !important;
 }
 
 
@@ -1217,9 +1218,14 @@ background: #f4f4f4;
 
 
 .cristalinefooter {
-  color: #1B1B20;
+  color: #5D5C69;
   font-size: 12px;
   font-family: "saasduoPAR" !important;
+  line-height: 20px;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -1228,8 +1234,11 @@ background: #f4f4f4;
     display: flex;
     justify-content: space-between;
     max-width: 1600px;
-    width: 100%;
-    padding: 20px;
+    width: 1150px;
+    padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 0px;
+      padding-right: 0px;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
@@ -1237,7 +1246,7 @@ background: #f4f4f4;
 
 .columnzapier {
     flex-basis: calc(25% - 20px);
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -1774,7 +1783,8 @@ width: 250px;
   width: 100%;
     margin-top: -10px;
   margin-bottom: 23px;
-  padding-right: 35px;
+  padding-right: 0px;
+    padding-left: 0px;
   text-align: center !important;
   margin-right: auto !important;
   margin-left: auto !important;
@@ -1931,7 +1941,7 @@ input[type="text" i]:focus {
   font-family: "saasduoPAR";
   font-size: 19px;
   text-align: center;
-    color: grey !important;
+    color: #5D5C69 !important;
 }
 
 
@@ -1951,7 +1961,7 @@ input[type="text" i]:focus {
   font-family: "saasduoPAR";
   font-size: 19px;
   text-align: center;
-    color: grey;
+    color: #5D5C69;
 }
 
 

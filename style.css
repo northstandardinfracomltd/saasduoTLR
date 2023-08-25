@@ -1128,13 +1128,36 @@ text-decoration: none;
 
 
 
+
+.embrasse {
+width: 100%;
+  border-bottom: 1px solid rgb(66 77 87 / 30%);
+    background: #fff;
+}
+
+.saasduoentry {
+    width: 100%;
+      
+        background: radial-gradient(farthest-side at bottom left,#7edd92,transparent 500px),radial-gradient(farthest-side at center,#fff,transparent),radial-gradient(farthest-side at top right,#6ec500,#cdff3f,transparent 900px),radial-gradient(farthest-side at bottom right,#eefdd1,#2aac67,transparent 900px);
+    
+}
+
+
+.saasduocontent {
+    max-width: 1150px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  padding-right: 100px;
+}
+
+
 .containertri {
-    max-width: 100%;
+    max-width: 1150px;
+  width: 100%;
     margin: 0 auto; 
     display: flex; 
-  height: 52px !important;
-  border-bottom: 1px solid grey;
-  background: #fff;
+  height: 60px !important;
     z-index: 999;
     position: sticky;
 }

@@ -680,23 +680,6 @@ margin-top: -10px;
 
 
 
-.triathlon-button {
-  background-color: #00a82d;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  width: 200px;
-  height: 40px;
-}
-
-.triathlon-button:hover {
-  background-color: #00a82d; 
-}
-
-
 
 
 .green-button {
@@ -1016,14 +999,14 @@ text-decoration: none;
 
 img.navlogo {
   margin-top: 10px;
-  margin-left: 13px !important;
+  margin-left: 1px !important;
   cursor: pointer;
 }
 
 .navlogo
 {
   line-height: 10px;
-  width: 85px !important;
+  width: 120px !important;
 }
 
 
@@ -1048,31 +1031,50 @@ img.navlogo {
 
 
 
+.triathlon-button {
+  background-color: #00a82d;
+  color: white;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  border-radius: 9px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 44px;
+  
+  font-family: "SaaSduoTXT" !important;
+
+}
+
+.triathlon-button:hover {
+  background-color: #00a82d; 
+}
+
+
+
+
+
 .dropdown {
   display: inline-block;
   position: relative;
 }
 
 .dd-button {
-text-decoration: none;
-    display: inline-block !important;
-    padding: 4px 20px !important;
-    font-size: 18px !important;
-    font-weight: var(--base-text-weight-medium, 500) !important;
-    line-height: 40px !important;
-    white-space: nowrap !important;
-    vertical-align: middle !important;
-    cursor: pointer !important;
-    user-select: none !important;
-    border: 1px solid #316dca;
-    border-radius: 10px;
-    font-family: "Saoecom2font" !important;
-    color: #feffff !important;
-    background-color: #316dca !important;
-    height: 50px;
-    margin-top: 11px;
-    margin-bottom: auto;
-    margin-right: 10px;
+  background-color: #00a82d;
+  color: white;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  border-radius: 9px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 44px;
+  
+  font-family: "SaaSduoTXT" !important;
 }
 
 .dd-button:hover {
@@ -1133,6 +1135,7 @@ text-decoration: none;
 width: 100%;
   border-bottom: 1px solid rgb(66 77 87 / 30%);
     background: #fff;
+  justify-content: center;
 }
 
 .saasduoentry {
@@ -1167,7 +1170,6 @@ width: 100%;
     padding: 0px; 
     box-sizing: border-box;
     border: 0px solid transparent; 
-    height: 52px !important;
 }
 
 .column1tri {
@@ -1773,10 +1775,10 @@ width: 250px;
 
 
 .TXTintro {
-  font-size: 76px !important;
+  font-size: 79px !important;
   font-family: "saasduoTIL" !important;
   letter-spacing: -2px;
-  padding-left: 20px;
+  padding-left: 0px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -1795,10 +1797,10 @@ width: 250px;
 
 
 .TXTintro2 {
-  font-size: 76px !important;
+  font-size: 79px !important;
   font-family: "saasduoTIL" !important;
   letter-spacing: -2px;
-  padding-left: 20px;
+  padding-left: 0px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -1806,6 +1808,7 @@ width: 250px;
   line-height: 0px;
   color: black;
   margin-top: -40px;
+  margin-bottom: 65px;
 }
 
 
@@ -1818,7 +1821,8 @@ width: 250px;
   letter-spacing: 0px;
   color: #1b1b20;
   letter-spacing: 0px;
-  padding-left: 10px;
+  padding-left: 0px;
+    padding-bottom: 10px;
   padding-right: 10px;
   margin-left: auto;
   margin-right: auto;

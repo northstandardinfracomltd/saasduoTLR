@@ -1837,7 +1837,7 @@ width: 250px;
 
 
 .TXTintro {
-  font-size: 79px !important;
+  font-size: 81px !important;
   font-family: "saasduoTIL" !important;
   letter-spacing: -2px;
   padding-left: 0px;
@@ -1857,9 +1857,15 @@ width: 250px;
 
 
 
+.TXTintro:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+
 
 .TXTintro2 {
-  font-size: 79px !important;
+  font-size: 81px !important;
   font-family: "saasduoTIL" !important;
   letter-spacing: -2px;
   padding-left: 0px;
@@ -1869,7 +1875,7 @@ width: 250px;
   text-align: left !important;
   line-height: 0px;
   color: black;
-  margin-top: -40px;
+  margin-top: -37px;
   margin-bottom: 65px;
 }
 
@@ -1941,3 +1947,6 @@ width: 250px;
     font-family: "saasduoBTN" !important;
 font-size: 18px;
 }
+
+
+

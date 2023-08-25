@@ -1032,7 +1032,7 @@ img.navlogo {
 
 
 .triathlon-button {
-  background-color: #00a82d;
+  background-color: #06f;
   color: white;
   border: none;
   padding-left: 20px;
@@ -1043,13 +1043,15 @@ img.navlogo {
   font-size: 16px;
   cursor: pointer;
   height: 44px;
-  
+  margin-right: 8px;
   font-family: "SaaSduoTXT" !important;
+
 
 }
 
 .triathlon-button:hover {
-  background-color: #00a82d; 
+  background-color: #0052cc; 
+  box-shadow: 0 0 0px 4px #008eff38;
 }
 
 
@@ -1062,23 +1064,24 @@ img.navlogo {
 }
 
 .dd-button {
-  background-color: #00a82d;
+  background-color: #ee0007;
   color: white;
   border: none;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 9px;
+  padding-top: 11px;
   padding-bottom: 10px;
   border-radius: 9px;
   font-size: 16px;
   cursor: pointer;
   height: 44px;
-  
   font-family: "SaaSduoTXT" !important;
 }
 
 .dd-button:hover {
   display: inline-block;
+    box-shadow: 0 0 0px 4px #008eff38;
+  background-color: #cf0006; 
 
 }
 
@@ -1170,6 +1173,7 @@ width: 100%;
     padding: 0px; 
     box-sizing: border-box;
     border: 0px solid transparent; 
+  justify-content: center;
 }
 
 .column1tri {
@@ -1180,6 +1184,8 @@ width: 100%;
 .column2tri {
   justify-content: right;
   text-align: right;
+  display: flex !important;
+  padding-top: 8px;
 }
 
 

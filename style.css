@@ -406,7 +406,7 @@ width: 100%;
 
 
 .txt0001 {
-  font-size: 27px;
+  font-size: 28px;
   font-family: "saasduoTIL" !important;
   letter-spacing: -0.5px;
   color: #1b1b20;
@@ -456,6 +456,7 @@ margin-top: -10px;
 margin-top: -10px;
     padding-left: 10px;
   padding-right: 10px;
+  color: #1B1B20;
 }
 
 
@@ -614,14 +615,14 @@ margin-top: -10px;
 }
 
 .txt0009zapiertop {
-  font-size: 27px !important;
+  font-size: 28px !important;
   text-align: left;
   padding-left: 5px;
   padding-right: 5px;
   font-family: "saasduoTIL" !important;
   text-decoration: none !important; 
   letter-spacing: -0.5px;
-  color: black;
+  color: #1B1B20;
 }
 
 
@@ -1201,9 +1202,9 @@ background: #f4f4f4;
 
 
 .cristalinefooter {
-  color: #676672;
+  color: #1B1B20;
   font-size: 12px;
-  font-family: "saasduoTXT" !important;
+  font-family: "saasduoPAR" !important;
 }
 
 
@@ -1694,14 +1695,21 @@ margin-top: -10px;
 
 .red-price-button {
     padding: 10px;
-    background-color: red;
+    background-color: #ee0007;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 9px;
     cursor: pointer;
   font-size: 18px;
-  padding: 15px 15px 15px 15px;
-    font-family: "saasduoBTN" !important;
+padding-left: 25px;
+  padding-right: 25px;
+
+  padding-top: 15px;
+
+  padding-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
 
 }
 

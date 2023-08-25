@@ -1684,10 +1684,10 @@ width: 250px;
 
 
 .footerimg {
-max-width: 180px;
   width: 100%;
-    margin-top: 15px;
+    margin-top: -10px;
   margin-bottom: 23px;
+  padding-right: 35px;
   text-align: center !important;
   margin-right: auto !important;
   margin-left: auto !important;

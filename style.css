@@ -117,7 +117,6 @@ background: #ffffff;
 
 
 .saasduodesklandscapeb {
-  height: 654px;
   background: #ffd000;
   border-radius: 200px 200px 0px 0px;
     margin-bottom: -50px;
@@ -128,7 +127,6 @@ background: #ffffff;
 }
 
 .saasduodesklandscapeb2 {
-  height: 654px;
   margin-top: -70px;
   background: #1b1b20;
   border-radius:  0px 0px 200px 200px;
@@ -409,7 +407,7 @@ width: 100%;
 .txt0001 {
   font-size: 27px;
   font-family: "saasduoTIL" !important;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
   color: #1b1b20;
   padding-left: 10px;
   padding-right: 10px;
@@ -1612,7 +1610,7 @@ margin-top: -10px;
     width: 100%;
   font-size: 54px !important;
   font-family: "saasduoTIL" !important;
-  letter-spacing: -0.5px !important;
+  letter-spacing: -1.5px !important;
   color: #1b1b20;
   padding-left: 10px;
   padding-right: 10px;

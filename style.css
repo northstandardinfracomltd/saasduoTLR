@@ -1112,14 +1112,16 @@ img.navlogo {
   border: 1px solid #d4d4d7;
   border-radius: 9px;
   padding: 0;
+  padding-top: 13px !important;
+    padding-bottom: 5px;
   color: #1b1b20 !important;
   font-family: "SaaSduoPAR" !important;
   font-size: 20px !important;
-  margin: 10px 0 0 -9px !important;
+  margin: 10px 0 0 -82px !important;
   background-color: #f4f4f4;
   text-decoration: none !important;
   list-style-type: none;
-    text-align: left !important;
+    text-align: center !important;
   box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgba(0, 0, 0, 0.0400741), 0px -18px 10.9766px rgba(0, 0, 0, 0.0499982), 0px 14px 20.5812px rgba(0, 0, 0, 0.0596004), 0px 12px 41.1623px rgba(0, 0, 0, 0.0709366), -20px 0px 89.1851px rgba(0, 0, 0, 0.09);
 }
 
@@ -1139,7 +1141,7 @@ img.navlogo {
 color: #1b1b20;
   text-decoration: none !important;
   font-size: 20px;
-    text-align: left !important;
+    text-align: center !important;
 }
 
 
@@ -1148,11 +1150,16 @@ color: #1b1b20;
   margin: -9px -20px;
   padding: 7px 20px;
       font-family: "SaaSduoPAR" !important;
-color: #1b1b20 !important;
+color: #1b1b20;
   text-decoration: none !important;
   font-size: 20px;
-  text-align: left !important;
+  text-align: center !important;
 }
+
+.dd-menu li a:hover {
+ color: #06f;
+}
+
 
 .dd-menu li.divider{
   padding: 9px;
@@ -1161,7 +1168,10 @@ color: #1b1b20 !important;
   margin-top: -5px;
 }
 
-
+.elonmusk {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+} 
 
 
 .embrasse {

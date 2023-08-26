@@ -2150,3 +2150,117 @@ padding-left: 24px;
     background-color: #1128f5;
   box-shadow: 0 0 0px 4px #008eff38;
 }
+
+
+
+
+
+
+
+.catapult-login-confluence {
+  background: transparent !important;
+  text-align: center;
+}
+
+.propelant {
+  padding-top: 9px;
+  width: 160px !important;
+  margin-bottom: 30px;
+}
+
+
+.login-door {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  text-align: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #d9e1ec;
+  margin-left: auto;
+  margin-right: auto;
+  background: #22272e;
+  border-radius: 12px 12px 12px 12px;
+  border-top: 1px solid #454c56;
+  border-bottom: 1px solid #454c56;
+  border-left: 1px solid #454c56;
+  border-right: 1px solid #454c56;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.login-door {
+  width: 93%;
+  max-width: 500px;
+  display: block;
+  text-align: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #d9e1ec;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f4f4f4;
+  border-radius: 12px 12px 12px 12px;
+  border-top: 1px solid #454c56;
+  border-bottom: 1px solid #454c56;
+  border-left: 1px solid #454c56;
+  border-right: 1px solid #454c56;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+}
+
+
+.andreasmarques1 {
+  margin-bottom: 30px !important;
+}
+
+
+.viewportpost {
+  width: 80% !important;
+  max-width: 400px !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+.cube-btn12 {
+  margin-bottom: 20px;
+  border: 1px #316dca;
+  border-radius: 10px;
+  margin-top: -6px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 18px !important;
+  height: 52px !important;
+  padding-top: 16px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
+  width: 100% !important;
+  padding-bottom: 11px !important;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .cube-btn12 {
+
+  }
+}
+
+@media (min-width: 100px) and (max-width: 819px) {
+  .cube-btn12 {
+
+  }
+}
+.andreasfoot {
+  margin-top: -5px !important;
+}

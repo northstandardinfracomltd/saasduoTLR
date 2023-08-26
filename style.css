@@ -2169,6 +2169,12 @@ padding-left: 24px;
 }
 
 
+.propelant:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+
 .login-door {
   width: 100%;
   max-width: 500px;
@@ -2327,9 +2333,11 @@ width: 100%;
   text-align: left !important;
   letter-spacing: -0.5px;
   color: #1b1b20;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
   white-space: nowrap !important;
+      padding-bottom: 5px;
+      padding-top: 12px;
 }
 
 
@@ -2339,10 +2347,11 @@ width: 100%;
   font-family: "saasduoPAR" !important;
   line-height: 38px;
 margin-top: -10px;
-    padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 0px;
+  padding-right: 0px;
   color: #1B1B20;
     text-align: left !important;
+      padding-bottom: 12px;
 }
 
 

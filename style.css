@@ -419,12 +419,13 @@ width: 100%;
 
 
 .txt0001 {
-  font-size: 28px;
+  font-size: 30px;
   font-family: "saasduoTIL" !important;
   letter-spacing: -0.5px;
   color: #1b1b20;
   padding-left: 10px;
   padding-right: 10px;
+  white-space: nowrap !important;
 }
 
 
@@ -463,9 +464,9 @@ margin-top: -10px;
 
 
 .txt0002 {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "saasduoPAR" !important;
-  line-height: 32px;
+  line-height: 38px;
 margin-top: -10px;
     padding-left: 10px;
   padding-right: 10px;
@@ -689,6 +690,9 @@ margin-top: -10px;
 .right-column {
   flex: 30%;
   padding: 20px;
+  justify-content: right;
+  text-align: right;
+  margin-left: auto;
 }
 
 
@@ -1925,7 +1929,7 @@ width: 250px;
   margin-left: auto;
   margin-right: auto;
   text-align: left !important;
-  line-height: 36px;
+  line-height: 40px;
 }
 
 
@@ -2027,3 +2031,47 @@ padding-left: 24px;
   box-shadow: 0 0 0px 4px #008eff38;
 }
 
+
+
+
+.blue-flatty93 {
+    background-color: #06f;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  font-size: 19px;
+padding-left: 24px;
+  padding-right: 24px;
+
+  padding-top: 15px;
+
+  padding-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
+      white-space: nowrap;
+  margin-top: 12px;
+  margin-bottom: 12px;
+   margin-right: 10px;
+}
+
+
+
+
+.blue-flatty93:hover {
+    background-color: #1128f5;
+  box-shadow: 0 0 0px 4px #008eff38;
+  
+}
+
+
+.TXTreminder {
+    font-size: 22px;
+    font-family: "saasduoPAR" !important;
+    line-height: 38px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #1B1B20;
+}

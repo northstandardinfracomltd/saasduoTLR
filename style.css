@@ -426,6 +426,7 @@ width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   white-space: nowrap !important;
+  cursor: pointer;
 }
 
 
@@ -471,6 +472,7 @@ margin-top: -10px;
     padding-left: 10px;
   padding-right: 10px;
   color: #1B1B20;
+  cursor: pointer;
 }
 
 
@@ -523,6 +525,7 @@ margin-top: -10px;
   text-align: center !important;
   padding-top: 30px;
   margin-bottom: 10px;
+  cursor: default;
 }
 
 
@@ -541,8 +544,8 @@ margin-top: -10px;
   text-align: center !important;
   padding-top: 30px;
   margin-bottom: 10px;
+  cursor: default;
 }
-
 
 
 .txt98765UU {
@@ -573,6 +576,7 @@ margin-top: -10px;
   text-align: center !important;
   max-width: 1000px;
   line-height: 37px;
+  cursor: default;
 }
 
 
@@ -589,6 +593,7 @@ margin-top: -10px;
   text-align: center !important;
   max-width: 1000px;
   line-height: 37px;
+  cursor: default;
 }
 
 
@@ -1259,6 +1264,7 @@ background: #f4f4f4;
   margin-right: auto;
 margin-top: 26px;
     margin-bottom: 23px;
+  cursor: default;
 }
 
 
@@ -1576,6 +1582,7 @@ width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+  cursor: default;
 }
 
 
@@ -1589,7 +1596,7 @@ margin-top: -10px;
     padding-left: 10px;
   padding-right: 10px;
     width: 100%;
-
+cursor: default;
 }
 
 
@@ -1743,6 +1750,7 @@ padding-left: 24px;
   text-align: center !important;
   padding-top: 30px;
   margin-bottom: 10px;
+  cursor: default;
 }
 
 
@@ -1760,6 +1768,7 @@ padding-left: 24px;
   text-align: center !important;
   max-width: 1000px;
   line-height: 37px;
+  cursor: default;
 }
 
 
@@ -1777,6 +1786,7 @@ padding-left: 24px;
   text-align: left !important;
   max-width: 1000px;
   line-height: 37px;
+  cursor: default;
 }
 
 
@@ -1905,7 +1915,7 @@ width: 250px;
   margin-left: auto;
   margin-right: auto;
   text-align: left !important;
-  
+  cursor: default;
   
       -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
@@ -1933,6 +1943,7 @@ width: 250px;
   color: black;
   margin-top: -37px;
   margin-bottom: 65px;
+  cursor: default;
 }
 
 
@@ -1952,6 +1963,7 @@ width: 250px;
   margin-right: auto;
   text-align: left !important;
   line-height: 40px;
+  cursor: default;
 }
 
 
@@ -2097,6 +2109,7 @@ padding-left: 24px;
     padding-left: 15px;
     padding-right: 10px;
     color: #1B1B20;
+  cursor: default;
 }
 
 

@@ -2098,3 +2098,55 @@ padding-left: 24px;
     padding-right: 10px;
     color: #1B1B20;
 }
+
+
+.pages293 {
+    width: 100%;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+
+
+.TXTpages293 {
+  font-size: 22px;
+  font-family: "saasduoPAR" !important;
+  line-height: 38px;
+margin-top: -10px;
+    padding-left: 0px;
+  padding-right: 0px;
+  color: #1B1B20;
+  
+}
+
+
+
+
+.pages293-blue-flatty {
+    background-color: #06f;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  font-size: 19px;
+padding-left: 24px;
+  padding-right: 24px;
+
+  padding-top: 15px;
+
+  padding-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
+  white-space: nowrap;
+}
+
+
+
+
+.pages293-blue-flatty:hover {
+    background-color: #1128f5;
+  box-shadow: 0 0 0px 4px #008eff38;
+}

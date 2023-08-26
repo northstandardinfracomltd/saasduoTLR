@@ -1109,16 +1109,18 @@ img.navlogo {
 .dd-menu {
   position: absolute;
   top: 100%;
-  border: 1px solid #454c56;
-  border-radius: 14px;
+  border: 1px solid #d4d4d7;
+  border-radius: 9px;
   padding: 0;
-  color: #acbac7 !important;
-      font-family: "Saoecom2font" !important;
-  font-size: 15px !important;
-  margin: 8px 0 0 -83px !important;
-  background-color: #2d333b;
+  color: #1b1b20 !important;
+  font-family: "SaaSduoPAR" !important;
+  font-size: 20px !important;
+  margin: 10px 0 0 -9px !important;
+  background-color: #f4f4f4;
+  text-decoration: none !important;
   list-style-type: none;
-  box-shadow: 20px -1px 2.74416px rgba(0, 0, 0, 0.0274351), -2px 11px 5.48831px rgba(0, 0, 0, 0.0400741), 0px -18px 10.9766px rgba(0, 0, 0, 0.0499982), 0px 14px 20.5812px rgba(0, 0, 0, 0.0596004), 0px 12px 41.1623px rgba(0, 0, 0, 0.0709366), -20px 0px 89.1851px rgba(0, 0, 0, 0.09);
+    text-align: left !important;
+  box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgba(0, 0, 0, 0.0400741), 0px -18px 10.9766px rgba(0, 0, 0, 0.0499982), 0px 14px 20.5812px rgba(0, 0, 0, 0.0596004), 0px 12px 41.1623px rgba(0, 0, 0, 0.0709366), -20px 0px 89.1851px rgba(0, 0, 0, 0.09);
 }
 
 .dd-input + .dd-menu {
@@ -1133,6 +1135,11 @@ img.navlogo {
   padding: 17px 20px;
   cursor: pointer;
   white-space: nowrap;
+    font-family: "SaaSduoPAR" !important;
+color: #1b1b20;
+  text-decoration: none !important;
+  font-size: 20px;
+    text-align: left !important;
 }
 
 
@@ -1140,11 +1147,18 @@ img.navlogo {
   display: block;
   margin: -9px -20px;
   padding: 7px 20px;
+      font-family: "SaaSduoPAR" !important;
+color: #1b1b20 !important;
+  text-decoration: none !important;
+  font-size: 20px;
+  text-align: left !important;
 }
 
 .dd-menu li.divider{
   padding: 9px;
-  border-bottom: 1px solid #454c56;
+  border-bottom: 1px solid #d4d4d7;
+  margin-bottom: 5px;
+  margin-top: -5px;
 }
 
 

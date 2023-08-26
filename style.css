@@ -619,6 +619,8 @@ margin-top: -10px;
   font-family: "saasduoPAR" !important;
   text-decoration: none ; 
     color: #1B1B20;
+  white-space: nowrap;
+
 }
 
 
@@ -1052,6 +1054,7 @@ img.navlogo {
 
 
 .triathlon-button {
+  white-space: nowrap;
   background-color: #06f;
   color: white;
   border: none;
@@ -1084,6 +1087,7 @@ img.navlogo {
 }
 
 .dd-button {
+  white-space: nowrap;
   background-color: #ee0007;
   color: white;
   border: none;
@@ -1249,14 +1253,30 @@ background: #f4f4f4;
   color: #5D5C69;
   font-size: 12px;
   font-family: "saasduoPAR" !important;
-  line-height: 20px;
+  line-height: 22px;
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
-
+margin-top: 26px;
+    margin-bottom: 23px;
 }
 
 
+
+
+.cristalinefooterlink {
+  color: #06f;
+  font-size: 12px;
+  font-family: "saasduoPAR" !important;
+  text-decoration: none !important;
+}
+
+
+.cristalinefooterlink:hover {
+-webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
+    -webkit-background-clip: text;
+}
 
 .containerzapier {
     display: flex;
@@ -1607,6 +1627,7 @@ padding-left: 24px;
 
   font-family: "saasduoBTN" !important;
   height: 53px;
+  white-space: nowrap;
 }
 
 
@@ -1776,6 +1797,7 @@ padding-left: 24px;
 
   font-family: "saasduoBTN" !important;
   height: 53px;
+white-space: nowrap;
 
 }
 
@@ -2070,8 +2092,9 @@ padding-left: 24px;
     font-size: 22px;
     font-family: "saasduoPAR" !important;
     line-height: 38px;
-    margin-top: 10px;
-    padding-left: 10px;
+    margin-top: 20px;
+  margin-bottom: 19px;
+    padding-left: 15px;
     padding-right: 10px;
     color: #1B1B20;
 }

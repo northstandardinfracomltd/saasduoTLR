@@ -2164,8 +2164,8 @@ padding-left: 24px;
 
 .propelant {
   padding-top: 9px;
-  width: 160px !important;
-  margin-bottom: 30px;
+  width: 180px !important;
+  margin-bottom: 40px;
 }
 
 
@@ -2173,20 +2173,16 @@ padding-left: 24px;
   width: 100%;
   max-width: 500px;
   display: block;
-  text-align: center;
+  text-align: left;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: left;
   margin-right: 20px;
   margin-left: 20px;
-  border: 1px solid #d9e1ec;
+  border: 1px solid #d4d4d7;
   margin-left: auto;
   margin-right: auto;
-  background: #22272e;
-  border-radius: 12px 12px 12px 12px;
-  border-top: 1px solid #454c56;
-  border-bottom: 1px solid #454c56;
-  border-left: 1px solid #454c56;
-  border-right: 1px solid #454c56;
+  background: #f4f4f4;
+  border-radius: 9px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -2198,20 +2194,16 @@ padding-left: 24px;
   width: 93%;
   max-width: 500px;
   display: block;
-  text-align: center;
+  text-align: left;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: left;
   margin-right: 20px;
   margin-left: 20px;
-  border: 1px solid #d9e1ec;
+  border: 1px solid #d4d4d7;
   margin-left: auto;
   margin-right: auto;
   background: #f4f4f4;
-  border-radius: 12px 12px 12px 12px;
-  border-top: 1px solid #454c56;
-  border-bottom: 1px solid #454c56;
-  border-left: 1px solid #454c56;
-  border-right: 1px solid #454c56;
+  border-radius: 9px;
   padding-top: 15px;
   padding-bottom: 15px;
   }
@@ -2263,4 +2255,128 @@ padding-left: 24px;
 }
 .andreasfoot {
   margin-top: -5px !important;
+}
+
+
+
+
+
+.blue-flatty-link {
+    background-color: #06f;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  font-size: 19px;
+padding-left: 24px;
+  padding-right: 24px;
+
+  padding-top: 15px;
+width: 100%;
+  padding-bottom: 14px;
+margin-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
+  white-space: nowrap;
+}
+
+
+
+
+.blue-flatty-link:hover {
+    background-color: #1128f5;
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
+
+.red-flatty-link {
+    background-color: #ee0007;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  font-size: 19px;
+padding-left: 24px;
+  padding-right: 24px;
+margin-bottom: 14px;
+  padding-top: 15px;
+width: 100%;
+  padding-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
+  white-space: nowrap;
+}
+
+
+
+
+.red-flatty-link:hover {
+    background-color: #cf0006;
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
+
+
+.TXTpages {
+  font-size: 30px;
+  font-family: "saasduoTIL" !important;
+  text-align: left !important;
+  letter-spacing: -0.5px;
+  color: #1b1b20;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap !important;
+}
+
+
+
+.TXTpages2 {
+  font-size: 22px;
+  font-family: "saasduoPAR" !important;
+  line-height: 38px;
+margin-top: -10px;
+    padding-left: 10px;
+  padding-right: 10px;
+  color: #1B1B20;
+    text-align: left !important;
+}
+
+
+
+
+
+
+.cristalinefooterTXT {
+  color: #5D5C69;
+  font-size: 12px;
+  font-family: "saasduoPAR" !important;
+  line-height: 22px;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 26px;
+    margin-bottom: 23px;
+  text-align: left !important;
+}
+
+
+
+
+.cristalinefooterlinkTXT {
+  color: #06f;
+  font-size: 12px;
+  font-family: "saasduoPAR" !important;
+  text-decoration: none !important;
+    text-align: left !important;
+}
+
+
+.cristalinefooterlinkTXT:hover {
+-webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
+    -webkit-background-clip: text;
 }

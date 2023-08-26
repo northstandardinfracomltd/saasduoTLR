@@ -2389,3 +2389,20 @@ margin-top: 26px;
     background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
     -webkit-background-clip: text;
 }
+
+
+
+
+
+
+.RMSTXT {
+  color: #06f;
+  text-decoration: none !important;
+}
+
+
+.RMSTXT:hover {
+-webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#49c04f,#2aac67,#79db22);
+    -webkit-background-clip: text;
+}

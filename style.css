@@ -1575,28 +1575,30 @@ width: 100%;
 
 
 .txt0001101 {
-  font-size: 27px;
+  font-size: 30px;
   font-family: "saasduoTIL" !important;
-  letter-spacing: -0.5px;
-  color: #1b1b20;
+    letter-spacing: -0.5px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
   cursor: default;
+    color: #1B1B20;
+      margin-top: 22px;
 }
 
 
 
 
 .txt0002101 {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "saasduoPAR" !important;
-  line-height: 32px;
+  line-height: 38px;
 margin-top: -10px;
     padding-left: 10px;
   padding-right: 10px;
     width: 100%;
 cursor: default;
+  color: #1B1B20;
 }
 
 
@@ -1635,6 +1637,7 @@ padding-left: 24px;
   font-family: "saasduoBTN" !important;
   height: 53px;
   white-space: nowrap;
+  margin-left: 10px;
 }
 
 

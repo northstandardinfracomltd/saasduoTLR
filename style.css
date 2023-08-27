@@ -171,7 +171,6 @@ body {
   grid-template-rows: repeat(3, 1fr);
   gap: 20px;
   width: 100%;
-  margin: 0 auto;
 }
 
 .grid-item {
@@ -2137,10 +2136,21 @@ input[type="text" i]:focus {
 @media (min-width: 100px) and (max-width: 819px) {
 .grid-container {
     grid-template-columns: repeat(1, 1fr);
-  padding-left: 10px;
-  padding-right: 10px;
+
+      gap: 22px;
 }
 }
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.grid-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
 
 
 @media (min-width: 100px) and (max-width: 819px) {
@@ -2213,3 +2223,24 @@ input[type="text" i] {
   margin-top: 10px;
 }
 }
+
+
+
+
+  @media (min-width: 100px) and (max-width: 819px) {
+
+.containertri {
+   padding-left: 9px !important;
+     padding-right: 9px !important;
+
+}}
+
+
+
+  @media (min-width: 100px) and (max-width: 819px) {
+
+.saasduoentry {
+   padding-left: 9px !important;
+     padding-right: 9px !important;
+
+}}

@@ -2362,6 +2362,7 @@ text-align: center;
 }
 
 
+
 @media (min-width: 820px) and (max-width: 1166px)
  
 {
@@ -2407,3 +2408,76 @@ text-align: center;
   padding-left: 20px;
     padding-right: 20px;
 }}
+
+
+
+
+@media (min-width: 820px) and (max-width: 1166px)
+ 
+{
+.saasduo9282 {
+        padding-left: 15px;
+  padding-right: 15px; 
+}
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) {
+
+.containertri {
+   padding-left: 9px !important;
+     padding-right: 9px !important;
+
+}}
+
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) and (orientation: portrait) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) and (orientation: portrait) {
+    .two-column-container {
+        display: none;
+    }
+}
+
+
+@media (min-width: 820px) and (max-width: 1166px) and (orientation: portrait)
+ 
+{
+.colonne-containerz {
+        padding-left: 45px;
+  padding-right: 45px; 
+  grid-template-columns: repeat(1, 1fr);
+}
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) and (orientation: portrait)
+ 
+{
+.gucci {
+      margin-top: -20px;
+}
+}
+
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) and (orientation: portrait)
+ 
+{
+.containerzapier {
+        padding-left: 15px;
+  padding-right: 15px; 
+}
+}
+

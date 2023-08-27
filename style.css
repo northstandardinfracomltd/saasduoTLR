@@ -1430,6 +1430,7 @@ img.navlogo {
   cursor: default;
   color: #1b1b20;
   margin-top: 22px;
+  white-space: nowrap;
 }
 
 .txt0002101 {

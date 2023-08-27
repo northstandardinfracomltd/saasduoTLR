@@ -2327,6 +2327,20 @@ text-align: center;
 
 
 
+
+  @media (min-width: 100px) and (max-width: 819px) {
+
+.pages293 {
+padding-left: 0px;
+    padding-right: 0px;
+}}
+
+
+
+
+
+
+
   @media (min-width: 100px) and (max-width: 819px) {
 
 .footerimg {
@@ -2412,6 +2426,10 @@ text-align: center;
 
 
 
+
+
+
+
 @media (min-width: 820px) and (max-width: 1166px)
  
 {
@@ -2430,6 +2448,17 @@ text-align: center;
      padding-right: 9px !important;
 
 }}
+
+
+
+
+
+@media (min-width: 820px) and (max-width: 1066px)  {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
 
 

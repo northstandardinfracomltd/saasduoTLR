@@ -77,6 +77,7 @@ to this section's matching END comment to see page-specific styles.
 body {
   background: #ffffff;
   margin: 0px !important;
+    overflow: hidden;
 }
 
 /* Page structure */
@@ -1144,8 +1145,7 @@ img.navlogo {
 .containerzapier {
   display: flex;
   justify-content: space-between;
-  max-width: 1600px;
-  width: 1150px;
+  max-width: 1150px;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 0px;
@@ -2127,4 +2127,46 @@ input[type="text" i]:focus {
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(#49c04f, #2aac67, #79db22);
   -webkit-background-clip: text;
+}
+
+
+/* Responsive */
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.colonne-containerz {
+  grid-template-columns: repeat(1, 1fr);
+    padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.kfc {
+  grid-template-columns: repeat(1, 1fr);
+}
+}
+
+@media (min-width: 100px) and (max-width: 819px) {
+.two-column-container {
+    display: none;
+}
+}
+
+@media (min-width: 100px) and (max-width: 819px) {
+.containerzapier {
+    display: block;
+}
 }

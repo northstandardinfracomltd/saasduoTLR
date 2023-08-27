@@ -1716,7 +1716,7 @@ img.navlogo {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left !important;
+  text-align: left;
   cursor: default;
 
   -webkit-text-fill-color: transparent;
@@ -1734,7 +1734,7 @@ img.navlogo {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left !important;
+  text-align: left;
   line-height: 0px;
   color: black;
   margin-top: -37px;
@@ -1753,7 +1753,7 @@ img.navlogo {
   padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left !important;
+  text-align: left;
   line-height: 40px;
   cursor: default;
 }
@@ -2240,7 +2240,45 @@ input[type="text" i] {
   @media (min-width: 100px) and (max-width: 819px) {
 
 .saasduoentry {
-   padding-left: 9px !important;
-     padding-right: 9px !important;
+   background: linear-gradient(to right bottom, #ffffff, #f9fdff, #ebfeff, #ddffff, #d9fff0, #cef8dd, #c9f1c8, #c9e8b0, #aad99a, #88ca86, #61bb75, #2aac67);
 
+}}
+
+
+
+  @media (min-width: 100px) and (max-width: 819px) {
+.TXTintro {
+text-align: center;
+      padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 75px;
+
+}}
+
+
+
+  @media (min-width: 100px) and (max-width: 819px) {
+.TXTintro2 {
+text-align: center;
+  line-height: 80px;
+  margin-top: -55px;
+  margin-bottom: -2px;
+  
+    padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}}
+
+
+  @media (min-width: 100px) and (max-width: 819px) {
+.TXTintro3 {
+text-align: center;
+  
+    padding-left: 7px;
+  padding-right: 7px;
+  margin-left: auto;
+  margin-right: auto;
 }}

@@ -1516,6 +1516,7 @@ img.navlogo {
 
 .kfcimg {
   width: 100%;
+  margin-top: 10px;
 }
 
 .priceblock {
@@ -2111,14 +2112,12 @@ input[type="text" i]:focus {
 }
 
 
-/* Responsive */
-
 
 
 @media (min-width: 100px) and (max-width: 819px) {
 .grid-container {
     grid-template-columns: repeat(1, 1fr);
-margin-bottom: -60px;
+margin-bottom: -15px;
       gap: 22px;
 }
 }
@@ -2140,6 +2139,7 @@ margin-bottom: -60px;
   grid-template-columns: repeat(1, 1fr);
     padding-left: 20px;
   padding-right: 20px;
+  gap: 21px;
 }
 }
 
@@ -2278,7 +2278,7 @@ text-align: center;
 
   @media (min-width: 100px) and (max-width: 819px) {
 .saasduodesklandscapeb {  
- border-radius: 80px 80px 0px 0px;
+ border-radius: 70px 70px 0px 0px;
   padding-left: 20px;
     padding-right: 20px;
 }}
@@ -2286,7 +2286,7 @@ text-align: center;
 
   @media (min-width: 100px) and (max-width: 819px) {
 .saasduodesklandscapeb2 {  
- border-radius: 0px 0px 80px 80px;
+ border-radius: 0px 0px 70px 70px;
   padding-left: 20px;
     padding-right: 20px;
 }}
@@ -2502,4 +2502,3 @@ padding-left: 20px !important;
   padding-right: 15px; 
 }
 }
-

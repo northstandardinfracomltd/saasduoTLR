@@ -2538,3 +2538,30 @@ padding-left: 20px !important;
   padding-right: 15px; 
 }
 }
+
+
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) and (orientation: portrait)
+ 
+{
+.illustrationcapebRED {
+       margin-bottom: 25px;
+  margin-top: 39px;
+}
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) and (orientation: portrait)
+ 
+{
+.illustrationcapebYELLOW {
+       margin-bottom: 10px;
+  margin-top: 55px;
+}
+}

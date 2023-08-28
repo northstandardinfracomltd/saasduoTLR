@@ -1005,7 +1005,7 @@ img.navlogo {
 }
 
 .dd-menu li.divider {
-  padding: 9px;
+  padding: 7px;
   border-bottom: 1px solid #d4d4d7;
   margin-bottom: 5px;
   margin-top: -5px;
@@ -1015,6 +1015,12 @@ img.navlogo {
   padding-top: 10px !important;
   padding-bottom: 10px !important;
 }
+
+
+.thunderbolt {
+  margin-top: 2px;
+}
+
 
 .embrasse {
   width: 100%;

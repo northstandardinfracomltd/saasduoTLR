@@ -1915,9 +1915,10 @@ input[type="text" i]:focus {
 }
 
 .propelant {
-  padding-top: 9px;
-  width: 180px !important;
-  margin-bottom: 40px;
+  width: 100%;
+    max-width: 250px !important;
+  padding-top: 0px;
+  margin-bottom: -10px;
 }
 
 .propelant:hover {

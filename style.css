@@ -2572,3 +2572,279 @@ padding-left: 20px !important;
   margin-top: 55px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-containerxxx {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+.uniplasse {
+    border-radius: 9px;
+      box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
+}
+
+
+.uniplasse:focus {
+    outline: none !important; 
+}
+
+.uniplasse:hover {
+   box-shadow: 0 0 0px 4px #008eff38;
+    border-radius: 9px;
+}
+
+
+.input-fieldfix193 {
+  width: 100%;
+  height: 54px;
+  border: 3px solid #06f;
+  border-radius: 0px 0px 9px 9px;
+  margin-right: 0px;
+    margin-bottom: -4px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "saasduoPAR";
+  font-size: 19px;
+  text-align: center;
+  color: #5d5c69 !important;
+  line-height: 30px;
+}
+
+
+
+@media (min-width: 100px) and (max-width: 1200px) {
+.input-fieldfix193 {
+    margin-bottom: -5px;
+}
+}
+
+
+
+
+
+.logoflatty {
+    width: 100%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+    margin-bottom: -25px;
+  margin-top: 40px;
+}
+
+
+
+.logoflatty:hover {
+transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+
+
+.blue-txt93 {
+    text-decoration: none;
+          font-family: "saasduoPAR";
+    font-size: 19px !important;
+  color: #5d5c69;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 30px;
+}
+
+
+.blue-link {
+    text-decoration: none;
+          font-family: "saasduoPAR";
+    font-size: 19px;
+  color: #06f !important;
+}
+
+.blue-link:hover {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#49c04f, #2aac67, #79db22);
+    -webkit-background-clip: text;
+}
+
+
+.prime {
+  width: 100%;
+background: #ffd000; 
+  padding-right: 50px;
+    padding-left: 50px;
+  padding-bottom: 18px;
+  margin-bottom: 70px;
+border-radius: 9px;
+  text-decoration: none !important;
+      box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
+}
+
+
+.prime:hover {
+box-shadow: 0 0 0px 4px #008eff38;
+}
+
+.blue-txt932 {
+          font-family: "saasduoPAR";
+    font-size: 22px !important;
+  color: #1B1B20;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 30px;
+  padding-top: 50px;
+    padding-bottom: 6px;
+  line-height: 33px;
+  text-decoration: none !important;
+cursor: default;
+}
+
+
+@media (min-width: 100px) and (max-width: 800px) {
+.blue-txt932 {
+
+  padding-left: 5px;
+  padding-right: 5px;
+    padding-bottom: 2px;
+
+}
+}
+
+
+
+.blue-txt932x {
+          font-family: "saasduoPAR";
+    font-size: 22px !important;
+  color: #1B1B20;
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 30px;
+  padding-top: 32px;
+    padding-bottom: 22px;
+  line-height: 33px;
+  text-decoration: none !important;
+cursor: default;
+}
+
+
+
+.prime2 {
+  width: 100%;
+background: #f4f4f4; 
+  padding-right: 50px;
+    padding-left: 50px;
+  padding-bottom: 28px;
+    margin-top: 58px;
+  margin-bottom: -0px;
+      padding-top: 3px;
+  border: 1px solid #d4d4d7;
+border-radius: 9px;
+  text-decoration: none !important;
+      box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
+}
+
+
+@media (min-width: 100px) and (max-width: 800px) {
+.prime2 {
+  padding-right: 36px;
+    padding-left: 36px;
+    padding-top: 0px;
+  padding-bottom: 20px;
+
+}
+}
+
+
+
+.prime2:hover {
+box-shadow: 0 0 0px 4px #008eff38;
+}
+
+.form-containercontact {
+  display: block;
+  align-items: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+.input-fieldfix1crabe {
+  width: 100%;
+  height: 54px;
+  border: 3px solid #ffd000;
+  border-radius: 9px;
+  margin-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  font-family: "saasduoPAR";
+  font-size: 19px;
+  text-align: center;
+  color: #5d5c69 !important;
+}
+
+
+
+
+
+.eleyfante {
+  background-color: #ee0007;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 19px;
+  padding-left: 24px;
+  padding-right: 24px;
+width: 100% !important;
+  padding-top: 15px;
+  margin-top: 10px;
+    margin-bottom: 30px;
+  padding-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
+  white-space: nowrap;
+  
+  
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}

@@ -2848,3 +2848,13 @@ width: 100% !important;
     overflow: hidden;
     text-decoration: none;
 }
+
+
+
+
+  @media (min-width: 100px) and (max-width: 819px) {
+.form-containercontact {
+    display: block;
+    width: 100%;
+}
+}

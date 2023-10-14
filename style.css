@@ -2917,6 +2917,12 @@ background-color: #06f;
     padding: 10px;
         }
 
+
+        .faq-item:hover {
+            background:#f4f4f4;
+          cursor: pointer;
+        }
+
         .faq-question {
             padding: 10px;
             cursor: pointer;
@@ -2926,6 +2932,12 @@ background-color: #06f;
     letter-spacing: 0px;
     color: #1b1b20;
         }
+
+
+        .faq-question:hover {
+    color: #06f;
+    text-decoration: none !important;
+}
 
 
 
@@ -2939,7 +2951,14 @@ background-color: #06f;
         .faq-answer {
             display: none;
             padding: 10px;
+              font-size: 22px !important;
+    font-family: "saasduoPAR" !important;
+    letter-spacing: 0px;
+    color: #1b1b20;
+    letter-spacing: 0px;
+          line-height: 37px;
         }
+
 
 
 

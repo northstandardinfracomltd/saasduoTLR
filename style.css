@@ -90,7 +90,7 @@ body {
 
 .saasduodesklandscapeb {
   background: #ffd000;
-  border-radius: 90px;
+  border-radius: 0px;
   margin-bottom: -50px;
   margin-left: auto;
   margin-right: auto;
@@ -2863,3 +2863,28 @@ width: 100% !important;
     width: 100%;
 }
 }
+
+
+
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+        }
+
+        .faq-item {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        .faq-question {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 10px;
+        }

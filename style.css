@@ -2917,6 +2917,11 @@ background-color: #06f;
         }
 
 
+.faq-accordion2:hover {
+    box-shadow: 0 0 0px 4px #008eff38;
+    border-radius: 9px;
+}
+
 
 
 
@@ -2984,6 +2989,7 @@ background-color: #06f;
     color: #1b1b20;
     letter-spacing: 0px;
           line-height: 37px;
+          cursor: default;
         }
 
 

@@ -2873,9 +2873,9 @@ width: 100% !important;
           max-width: 550px;
           margin-left: auto;
           margin-right: auto;
-          border: 1px solid #d4d4d7;
           background: #FFF;
             border-radius: 9px;
+          padding: 10px;
         }
 
 
@@ -2890,6 +2890,9 @@ background-color: #06f;
           margin-top: 120px;
 
         }
+
+
+
 
 
 .justriding34 {
@@ -2918,10 +2921,7 @@ background-color: #06f;
         }
 
 
-        .faq-item:hover {
-            background:#f4f4f4;
-          cursor: pointer;
-        }
+
 
         .faq-question {
             padding: 10px;
@@ -2937,6 +2937,8 @@ background-color: #06f;
         .faq-question:hover {
     color: #06f;
     text-decoration: none !important;
+          transform: scale(1.06);
+    transition-duration: 0.2s;
 }
 
 
@@ -2988,4 +2990,20 @@ background-color: #06f;
 .red-price-buttonBX:hover {
   background-color: #cf0006;
   box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
+
+.clovismetrics {
+  max-width: 1150px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  display: block;
 }

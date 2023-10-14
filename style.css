@@ -2885,8 +2885,9 @@ background-color: #06f;
           max-width: 550px;
           margin-left: auto;
           margin-right: auto;
-          border-radius: 9px;
+          border-radius: 10px;
           border: 3px solid #06f;
+          margin-top: 120px;
 
         }
 
@@ -2901,8 +2902,8 @@ background-color: #06f;
     padding-left: 24px;
     padding-right: 24px;
     width: 100% !important;
-    padding-top: 27px;
-    padding-bottom: 19px;
+       padding-top: 24px;
+    padding-bottom: 26px;
     font-family: "saasduoPAR" !important;
     height: 72px;
     white-space: nowrap;
@@ -2939,3 +2940,33 @@ background-color: #06f;
             display: none;
             padding: 10px;
         }
+
+
+
+
+
+
+
+.red-price-buttonBX {
+  background-color: #ee0007;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 19px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  padding-top: 15px;
+
+  padding-bottom: 14px;
+
+  font-family: "saasduoBTN" !important;
+  height: 53px;
+  white-space: nowrap;
+}
+
+.red-price-buttonBX:hover {
+  background-color: #cf0006;
+  box-shadow: 0 0 0px 4px #008eff38;
+}

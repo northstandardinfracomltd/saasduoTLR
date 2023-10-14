@@ -362,20 +362,23 @@
             <div class="faq-question">SaaSduo en Français</div>
             <div class="faq-answer">
                 <p>SaaSduo est un éditeur et distributeur de solutions digitales, infrastructures cloud, logiciels internes, systèmes et plateformes grands publics, offrant une synergie pratique, intuitive, familière et conviviale entre le physique et le numérique pour les industries de toutes tailles et secteurs. Un produit personnalisé et centralisé répondant à vos critères, idées et demandes ; conforme aux standards Européens. Pour mieux vous accompagner, SaaSduo est disponible en France et en Français.</p>
-              <a href="/contact"> <button class="red-price-button">Nous contacter</button></a>
+              <a href="/contact"> <button class="red-price-buttonBX">Nous contacter</button></a>
             </div>
         </div>
         <div class="faq-item">
             <div class="faq-question">SaaSduo en Allemand</div>
             <div class="faq-answer">
                 <p>Un accordéon HTML est généralement créé en utilisant HTML, CSS et JavaScript. Les questions sont affichées en tant que titres, et les réponses sont masquées par défaut. Lorsqu'un utilisateur clique sur une question, la réponse correspondante s'affiche ou se cache.</p>
-            </div>
+                         <a href="/contact"> <button class="red-price-buttonBX">Nous contacter</button></a>
+
+        </div>
         </div>
         <div class="faq-item">
             <div class="faq-question">SaaSduo en Portugais</div>
             <div class="faq-answer">
                 <p>Les FAQs sont utiles pour fournir des informations utiles et réduire le besoin d'assistance directe. Elles améliorent l'expérience de l'utilisateur en offrant des réponses rapides aux questions courantes.</p>
-            </div>
+                          <a href="/contact"> <button class="red-price-buttonBX">Nous contacter</button></a>
+</div>
         </div>
     </div>   </div>
 
@@ -385,7 +388,19 @@
         faqQuestions.forEach(question => {
             question.addEventListener('click', () => {
                 const answer = question.nextElementSibling;
-                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                const allAnswers = document.querySelectorAll('.faq-answer');
+                const allQuestions = document.querySelectorAll('.faq-question');
+
+                allAnswers.forEach(a => {
+                    a.style.display = 'none';
+                });
+
+                allQuestions.forEach(q => {
+                    q.style.color = '#ccc';
+                });
+
+                answer.style.display = 'block';
+                question.style.color = '#000';
             });
         });
     </script>

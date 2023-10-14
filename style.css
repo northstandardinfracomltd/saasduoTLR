@@ -2875,7 +2875,7 @@ width: 100% !important;
           margin-right: auto;
           background: #FFF;
             border-radius: 9px;
-          padding: 10px;
+          padding: 20px;
         }
 
 
@@ -2935,7 +2935,7 @@ background-color: #06f;
 
 
         .faq-question:hover {
-    color: #06f;
+    color: #06f !important;
     text-decoration: none !important;
           transform: scale(1.06);
     transition-duration: 0.2s;
@@ -2972,7 +2972,9 @@ background-color: #06f;
   background-color: #ee0007;
   color: white;
   border: none;
-  width: 90%;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 9px;
   cursor: pointer;
   font-size: 19px;

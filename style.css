@@ -528,11 +528,8 @@ body {
     -webkit-background-clip: text !important;
   }
 
-.kesako:hover {
--webkit-text-fill-color: transparent !important;
-    background: -webkit-linear-gradient(#de663b, #ff6c37, #ff713d) !important;
-    -webkit-background-clip: text !important;
-  }
+
+
 
 
 .txt0009zapier:hover {
